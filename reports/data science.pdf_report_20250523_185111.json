@@ -1,0 +1,70 @@
+{
+    "file": "/home/ncognto/Downloads/data science.pdf",
+    "analysis_time": "2025-05-23T18:51:11.084378",
+    "static_analysis": {
+        "file_info": {
+            "name": "data science.pdf",
+            "size": 595476,
+            "path": "/home/ncognto/Downloads/data science.pdf"
+        },
+        "hashes": {
+            "md5": "a7735a089f258992d6910573d37f2ff0",
+            "sha1": "a4a01cc9d72e5f5b558b4d5a3c3ed5e379a1bbf9",
+            "sha256": "5a89a01160c9da5d54e886b4e70fc6704a32b354d0a2914d60bf9772a57d1501"
+        },
+        "entropy": 7.9975966207278075,
+        "file_type": "non-PE",
+        "suspicious_strings": [
+            "<</Type/Font/FontDescriptor 25 0 R /BaseFont/AAAAAA+RobotoStatic-Regular/Subtype/CIDFontType2/CIDToGIDMap/Identity/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/W[ 0[ 443.359] 7[ 320.313 615.723 0 732.422 622.07 174.805 342.285 348.145 430.664 0 196.777 276.367 263.672 412.598] 21 30 562.012 31[ 242.188 211.426 0 0 522.949 0 0 652.344 623.047 650.879 656.25 568.359 552.734 681.152 713.379 271.973 551.758 627.441 538.574 873.047 713.379 687.988 630.859 0 616.211 593.75 596.68 648.438 0 887.207 626.953 600.586 0 0 410.645] 70[ 543.945 561.524 523.438 563.965 530.274 347.656 561.524 550.781 243.164 239.258 506.836 243.164 876.953 552.246 570.313 561.524 568.359 338.867 516.113 327.148 551.27 484.375 751.465 496.094 473.145 496.094] 121[ 261.23] 1126[ 353.516 357.422]]/DW 0>>",
+            "<</Type/Font/FontDescriptor 29 0 R /BaseFont/BAAAAA+NotoSansSymbols-Regular-Subsetted/Subtype/CIDFontType2/CIDToGIDMap/Identity/CIDSystemInfo<</Registry(Adobe)/Ordering(Identity)/Supplement 0>>/W[ 0[ 600.098] 91[ 1000] 1095[ 604.004]]/DW 0>>"
+        ],
+        "urls": [],
+        "ips": []
+    },
+    "dynamic_analysis": {
+        "error": "File is not executable"
+    },
+    "heuristic_analysis": {
+        "hash_matches": [],
+        "string_matches": [],
+        "yara_matches": [],
+        "pe_anomalies": [],
+        "verdict": "likely benign",
+        "score": 0
+    },
+    "ml_analysis": {
+        "prediction": "benign",
+        "probability": 0.09,
+        "features_used": [
+            "file_size",
+            "entropy",
+            "num_sections",
+            "avg_section_entropy",
+            "max_section_entropy",
+            "import_count",
+            "export_count",
+            "dll_count",
+            "suspicious_string_count",
+            "url_count",
+            "ip_count",
+            "network_connection_count",
+            "process_count",
+            "file_operation_count",
+            "execution_duration"
+        ]
+    },
+    "overall_verdict": {
+        "verdict": "benign",
+        "confidence_score": 0.0,
+        "component_verdicts": [
+            [
+                "likely benign",
+                0
+            ],
+            [
+                "benign",
+                9.0
+            ]
+        ]
+    }
+}

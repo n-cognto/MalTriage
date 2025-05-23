@@ -1,0 +1,53 @@
+MALTRIAGE REPORT
+==============
+
+File: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/saved_searches.html
+Analysis Time: 2025-05-23T19:03:55.550914
+Overall Verdict: benign (Confidence: 0.00%)
+
+KEY FINDINGS
+------------
+Suspicious Strings (sample):
+  -             <div class="card border-0 shadow-sm mb-4">
+  -                             <span aria-hidden="true">&laquo;&laquo;</span>
+  -                             <span aria-hidden="true">&laquo;</span>
+  -                             <span aria-hidden="true">&raquo;</span>
+  -                             <span aria-hidden="true">&raquo;&raquo;</span>
+  - ... (1 more)
+
+STATIC ANALYSIS
+===============
+File Information:
+  - Name: saved_searches.html
+  - Size: 11379 bytes
+  - Type: non-PE
+Hashes:
+  - md5: 12222be3de57bf93a6230a26ee1df83c
+  - sha1: a4d6ea728eac5cb8ee2c1d1d727eb8181abbb673
+  - sha256: 94f28f3f7c9e9dff9d58def6f7281c7c3443b5b47db72f35da0f68a9783fc29d
+Entropy: 3.54
+
+DYNAMIC ANALYSIS
+================
+
+HEURISTIC ANALYSIS
+==================
+Verdict: likely benign
+Score: 0
+
+ML ANALYSIS
+===========
+Prediction: benign
+Probability: 11.00%
+Features Used (15):
+  - file_size
+  - entropy
+  - num_sections
+  - avg_section_entropy
+  - max_section_entropy
+  - import_count
+  - export_count
+  - dll_count
+  - suspicious_string_count
+  - url_count
+  - ... (5 more)

@@ -1,0 +1,21 @@
+{
+    "hash_signatures": [
+        {
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "description": "Example malicious file (this is just a placeholder)",
+            "threat_name": "Example.Malware"
+        }
+    ],
+    "string_signatures": [
+        {
+            "pattern": "(?i)this is (malware|a virus)",
+            "description": "Example string pattern",
+            "threat_name": "Example.StringMatch"
+        },
+        {
+            "pattern": "(?i)botnet command and control",
+            "description": "C2 communication indicator",
+            "threat_name": "Generic.Botnet"
+        }
+    ]
+}

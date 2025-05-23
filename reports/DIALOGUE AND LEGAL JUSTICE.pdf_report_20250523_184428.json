@@ -1,0 +1,75 @@
+{
+    "file": "/home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf",
+    "analysis_time": "2025-05-23T18:44:27.574586",
+    "static_analysis": {
+        "file_info": {
+            "name": "DIALOGUE AND LEGAL JUSTICE.pdf",
+            "size": 631056,
+            "path": "/home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf"
+        },
+        "hashes": {
+            "md5": "b77026d9786b4739cdd2dc272558ae85",
+            "sha1": "cb3546a2e5def1cdfa9be2244b4e9f900a3b7eb5",
+            "sha256": "7fe8ba4afd406e5051b80a69eb8a07490fc04d523dbbf5bec790a332b82ca697"
+        },
+        "entropy": 7.985960097755755,
+        "file_type": "non-PE",
+        "suspicious_strings": [
+            "<</BaseFont/ABCDEE+Calibri/Subtype/CIDFontType2/Type/Font/CIDToGIDMap/Identity/DW 1000/CIDSystemInfo 20 0 R/FontDescriptor 21 0 R/W 313 0 R>>",
+            "<</Ordering(Identity) /Registry(Adobe) /Supplement 0>>",
+            "<</Subtype/Link/Rect[ 217.92 459.17 378.09 472.96] /BS<</W 0>>/F 4/A<</Type/Action/S/URI/URI(https://doi.org/10.56201/ijssmr.v8.no1.2022.pg32.40) >>/StructParent 3>>",
+            "<</BaseFont/Times#20New#20Roman/Subtype/CIDFontType2/Type/Font/CIDToGIDMap/Identity/DW 1000/CIDSystemInfo 34 0 R/FontDescriptor 35 0 R/W 306 0 R>>",
+            "<</Ordering(Identity) /Registry(Adobe) /Supplement 0>>"
+        ],
+        "urls": [
+            "https://doi.org"
+        ],
+        "ips": []
+    },
+    "dynamic_analysis": {
+        "error": "File is not executable"
+    },
+    "heuristic_analysis": {
+        "hash_matches": [],
+        "string_matches": [],
+        "yara_matches": [],
+        "pe_anomalies": [],
+        "verdict": "likely benign",
+        "score": 0
+    },
+    "ml_analysis": {
+        "prediction": "benign",
+        "probability": 0.2,
+        "features_used": [
+            "file_size",
+            "entropy",
+            "num_sections",
+            "avg_section_entropy",
+            "max_section_entropy",
+            "import_count",
+            "export_count",
+            "dll_count",
+            "suspicious_string_count",
+            "url_count",
+            "ip_count",
+            "network_connection_count",
+            "process_count",
+            "file_operation_count",
+            "execution_duration"
+        ]
+    },
+    "overall_verdict": {
+        "verdict": "benign",
+        "confidence_score": 0.0,
+        "component_verdicts": [
+            [
+                "likely benign",
+                0
+            ],
+            [
+                "benign",
+                20.0
+            ]
+        ]
+    }
+}

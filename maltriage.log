@@ -1,0 +1,281 @@
+2025-05-23 18:44:27,004 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/samples
+2025-05-23 18:44:27,005 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/signatures
+2025-05-23 18:44:27,005 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/model
+2025-05-23 18:44:27,006 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/reports
+2025-05-23 18:44:27,007 - root - INFO - Created default signature file at /home/ncognto/Documents/file_triaging/maltriage/signatures/known_signatures.json
+2025-05-23 18:44:27,008 - root - INFO - Created default YARA rule file at /home/ncognto/Documents/file_triaging/maltriage/signatures/rules.yar
+2025-05-23 18:44:27,009 - root - INFO - Training default model on synthetic data
+2025-05-23 18:44:27,009 - root - WARNING - Model not found at /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl. Creating a new model.
+2025-05-23 18:44:27,537 - root - INFO - Saved model to /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl
+2025-05-23 18:44:27,561 - root - INFO - Loaded 1 hash signatures and 2 string signatures
+2025-05-23 18:44:27,573 - root - INFO - Loaded model from /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl
+2025-05-23 18:44:27,574 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf
+2025-05-23 18:44:27,574 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf
+2025-05-23 18:44:27,575 - maltriage - INFO - Performing static analysis...
+2025-05-23 18:44:28,010 - maltriage - INFO - Static analysis completed
+2025-05-23 18:44:28,011 - maltriage - INFO - Performing dynamic analysis...
+2025-05-23 18:44:28,012 - maltriage - INFO - Dynamic analysis completed
+2025-05-23 18:44:28,012 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 18:44:28,013 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 18:44:28,013 - maltriage - INFO - Performing ML analysis...
+2025-05-23 18:44:28,088 - maltriage - INFO - ML analysis completed
+2025-05-23 18:44:28,088 - maltriage - INFO - Analysis completed for: /home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf
+2025-05-23 18:44:28,089 - maltriage - INFO - Saved report to /home/ncognto/Documents/file_triaging/maltriage/reports/DIALOGUE AND LEGAL JUSTICE.pdf_report_20250523_184428.json
+2025-05-23 18:47:19,871 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/samples
+2025-05-23 18:47:19,871 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/signatures
+2025-05-23 18:47:19,872 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/model
+2025-05-23 18:47:19,872 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/reports
+2025-05-23 18:47:19,873 - root - INFO - Loaded 1 hash signatures and 2 string signatures
+2025-05-23 18:47:19,886 - root - INFO - Loaded model from /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl
+2025-05-23 18:47:19,886 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf
+2025-05-23 18:47:19,887 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf
+2025-05-23 18:47:19,887 - maltriage - INFO - Performing static analysis...
+2025-05-23 18:47:20,296 - maltriage - INFO - Static analysis completed
+2025-05-23 18:47:20,297 - maltriage - INFO - Performing dynamic analysis...
+2025-05-23 18:47:20,298 - maltriage - INFO - Dynamic analysis completed
+2025-05-23 18:47:20,298 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 18:47:20,299 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 18:47:20,299 - maltriage - INFO - Performing ML analysis...
+2025-05-23 18:47:20,351 - maltriage - INFO - ML analysis completed
+2025-05-23 18:47:20,351 - maltriage - INFO - Analysis completed for: /home/ncognto/Downloads/DIALOGUE AND LEGAL JUSTICE.pdf
+2025-05-23 18:47:20,353 - maltriage - INFO - Saved report to /home/ncognto/Documents/file_triaging/maltriage/reports/DIALOGUE AND LEGAL JUSTICE.pdf_report_20250523_184720.json
+2025-05-23 18:51:11,068 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/samples
+2025-05-23 18:51:11,069 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/signatures
+2025-05-23 18:51:11,069 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/model
+2025-05-23 18:51:11,070 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/reports
+2025-05-23 18:51:11,071 - root - INFO - Loaded 1 hash signatures and 2 string signatures
+2025-05-23 18:51:11,083 - root - INFO - Loaded model from /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl
+2025-05-23 18:51:11,084 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/data science.pdf
+2025-05-23 18:51:11,084 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/data science.pdf
+2025-05-23 18:51:11,084 - maltriage - INFO - Performing static analysis...
+2025-05-23 18:51:11,481 - maltriage - INFO - Static analysis completed
+2025-05-23 18:51:11,481 - maltriage - INFO - Performing dynamic analysis...
+2025-05-23 18:51:11,482 - maltriage - INFO - Dynamic analysis completed
+2025-05-23 18:51:11,482 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 18:51:11,483 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 18:51:11,483 - maltriage - INFO - Performing ML analysis...
+2025-05-23 18:51:11,535 - maltriage - INFO - ML analysis completed
+2025-05-23 18:51:11,536 - maltriage - INFO - Analysis completed for: /home/ncognto/Downloads/data science.pdf
+2025-05-23 18:51:11,537 - maltriage - INFO - Saved report to /home/ncognto/Documents/file_triaging/maltriage/reports/data science.pdf_report_20250523_185111.json
+2025-05-23 18:53:18,631 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/samples
+2025-05-23 18:53:18,632 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/signatures
+2025-05-23 18:53:18,632 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/model
+2025-05-23 18:53:18,632 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/reports
+2025-05-23 18:53:18,633 - root - INFO - Loaded 1 hash signatures and 2 string signatures
+2025-05-23 18:53:18,645 - root - INFO - Loaded model from /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl
+2025-05-23 18:53:18,646 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/tuunganishe-main.zip
+2025-05-23 18:53:18,646 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/tuunganishe-main.zip
+2025-05-23 18:53:18,646 - maltriage - INFO - Performing static analysis...
+2025-05-23 18:53:20,498 - maltriage - INFO - Static analysis completed
+2025-05-23 18:53:20,499 - maltriage - INFO - Performing dynamic analysis...
+2025-05-23 18:53:20,500 - maltriage - INFO - Dynamic analysis completed
+2025-05-23 18:53:20,500 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 18:53:20,501 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 18:53:20,502 - maltriage - INFO - Performing ML analysis...
+2025-05-23 18:53:20,555 - maltriage - INFO - ML analysis completed
+2025-05-23 18:53:20,556 - maltriage - INFO - Analysis completed for: /home/ncognto/Downloads/tuunganishe-main.zip
+2025-05-23 18:53:20,557 - maltriage - INFO - Saved report to /home/ncognto/Documents/file_triaging/maltriage/reports/tuunganishe-main.zip_report_20250523_185320.json
+2025-05-23 19:03:48,326 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/samples
+2025-05-23 19:03:48,327 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/signatures
+2025-05-23 19:03:48,328 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/model
+2025-05-23 19:03:48,328 - maltriage - INFO - Ensured directory exists: /home/ncognto/Documents/file_triaging/maltriage/reports
+2025-05-23 19:03:48,329 - root - INFO - Loaded 1 hash signatures and 2 string signatures
+2025-05-23 19:03:48,341 - root - INFO - Loaded model from /home/ncognto/Documents/file_triaging/maltriage/model/malware_model.pkl
+2025-05-23 19:03:48,342 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/tuunganishe-main.zip
+2025-05-23 19:03:48,342 - maltriage - INFO - Analyzing file: /home/ncognto/Downloads/tuunganishe-main.zip
+2025-05-23 19:03:48,342 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:48,948 - root - INFO - Extracted 151 files from archive to /tmp/maltriage_archive_347p69fp
+2025-05-23 19:03:48,973 - root - INFO - Cleaned up temporary directory: /tmp/maltriage_archive_347p69fp
+2025-05-23 19:03:50,262 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:50,262 - maltriage - INFO - Archive detected, performing recursive analysis...
+2025-05-23 19:03:50,361 - root - INFO - Extracted 151 files from archive to /tmp/maltriage_archive_3wx4f3w_
+2025-05-23 19:03:50,362 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/test_token_auth.py
+2025-05-23 19:03:50,362 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/test_token_auth.py
+2025-05-23 19:03:50,362 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:50,478 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:50,479 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:50,479 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:50,480 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:50,543 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:50,543 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/test_token_auth.py
+2025-05-23 19:03:50,544 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/run_tests.py
+2025-05-23 19:03:50,544 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/run_tests.py
+2025-05-23 19:03:50,544 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:50,661 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:50,661 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:50,662 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:50,663 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:50,718 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:50,719 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/run_tests.py
+2025-05-23 19:03:50,720 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/requirements.txt
+2025-05-23 19:03:50,720 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/requirements.txt
+2025-05-23 19:03:50,720 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:50,834 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:50,835 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:50,835 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:50,835 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:50,891 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:50,892 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/requirements.txt
+2025-05-23 19:03:50,892 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/manage.py
+2025-05-23 19:03:50,892 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/manage.py
+2025-05-23 19:03:50,892 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:51,008 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:51,008 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:51,009 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:51,009 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:51,069 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:51,070 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/manage.py
+2025-05-23 19:03:51,070 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/db.sqlite3
+2025-05-23 19:03:51,070 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/db.sqlite3
+2025-05-23 19:03:51,070 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:52,936 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:52,936 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:52,945 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:52,945 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:53,008 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:53,008 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/db.sqlite3
+2025-05-23 19:03:53,008 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/README.md
+2025-05-23 19:03:53,009 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/README.md
+2025-05-23 19:03:53,009 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:53,129 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:53,129 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:53,130 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:53,130 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:53,182 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:53,182 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/README.md
+2025-05-23 19:03:53,182 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/LICENSE
+2025-05-23 19:03:53,183 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/LICENSE
+2025-05-23 19:03:53,183 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:53,301 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:53,301 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:53,302 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:53,302 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:53,358 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:53,358 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/LICENSE
+2025-05-23 19:03:53,358 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/.gitignore
+2025-05-23 19:03:53,359 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/.gitignore
+2025-05-23 19:03:53,359 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:53,476 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:53,476 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:53,477 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:53,477 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:53,531 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:53,531 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/.gitignore
+2025-05-23 19:03:53,531 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/tuunganishe/wsgi.py
+2025-05-23 19:03:53,532 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/wsgi.py
+2025-05-23 19:03:53,532 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:53,647 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:53,647 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:53,647 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:53,648 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:53,700 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:53,700 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/wsgi.py
+2025-05-23 19:03:53,701 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/tuunganishe/urls.py
+2025-05-23 19:03:53,701 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/urls.py
+2025-05-23 19:03:53,701 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:53,819 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:53,819 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:53,820 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:53,820 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:53,876 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:53,876 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/urls.py
+2025-05-23 19:03:53,877 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/tuunganishe/settings.py
+2025-05-23 19:03:53,877 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/settings.py
+2025-05-23 19:03:53,877 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:53,998 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:53,999 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:53,999 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:53,999 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:54,051 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:54,052 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/settings.py
+2025-05-23 19:03:54,052 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/tuunganishe/asgi.py
+2025-05-23 19:03:54,053 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/asgi.py
+2025-05-23 19:03:54,053 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:54,171 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:54,171 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:54,172 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:54,172 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:54,248 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:54,249 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/asgi.py
+2025-05-23 19:03:54,249 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/tuunganishe/__init__.py
+2025-05-23 19:03:54,250 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/__init__.py
+2025-05-23 19:03:54,250 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:54,369 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:54,369 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:54,370 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:54,370 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:54,426 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:54,427 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/tuunganishe/__init__.py
+2025-05-23 19:03:54,427 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/pricing.html
+2025-05-23 19:03:54,427 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/pricing.html
+2025-05-23 19:03:54,428 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:54,552 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:54,552 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:54,553 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:54,553 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:54,605 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:54,606 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/pricing.html
+2025-05-23 19:03:54,606 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/how_it_works.html
+2025-05-23 19:03:54,607 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/how_it_works.html
+2025-05-23 19:03:54,607 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:54,736 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:54,736 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:54,737 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:54,737 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:54,800 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:54,800 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/how_it_works.html
+2025-05-23 19:03:54,800 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/home.html
+2025-05-23 19:03:54,801 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/home.html
+2025-05-23 19:03:54,801 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:54,931 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:54,931 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:54,931 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:54,932 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:54,991 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:54,991 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/home.html
+2025-05-23 19:03:54,992 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/base.html
+2025-05-23 19:03:54,992 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/base.html
+2025-05-23 19:03:54,993 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:55,116 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:55,116 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:55,117 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:55,117 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:55,172 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:55,172 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/base.html
+2025-05-23 19:03:55,172 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/search/search_results.html
+2025-05-23 19:03:55,173 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/search_results.html
+2025-05-23 19:03:55,173 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:55,301 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:55,302 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:55,302 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:55,302 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:55,356 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:55,356 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/search_results.html
+2025-05-23 19:03:55,357 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/search/search.html
+2025-05-23 19:03:55,357 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/search.html
+2025-05-23 19:03:55,357 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:55,488 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:55,489 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:55,489 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:55,489 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:55,549 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:55,550 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/search.html
+2025-05-23 19:03:55,550 - maltriage - INFO - Recursively analyzing extracted file: tuunganishe-main/templates/search/saved_searches.html
+2025-05-23 19:03:55,551 - maltriage - INFO - Analyzing file: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/saved_searches.html
+2025-05-23 19:03:55,551 - maltriage - INFO - Performing static analysis...
+2025-05-23 19:03:55,674 - maltriage - INFO - Static analysis completed
+2025-05-23 19:03:55,674 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:55,674 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:55,675 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:55,725 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:55,725 - maltriage - INFO - Analysis completed for: /tmp/maltriage_archive_3wx4f3w_/tuunganishe-main/templates/search/saved_searches.html
+2025-05-23 19:03:55,725 - maltriage - INFO - Completed recursive analysis of 1 files
+2025-05-23 19:03:55,733 - root - INFO - Cleaned up temporary directory: /tmp/maltriage_archive_3wx4f3w_
+2025-05-23 19:03:55,734 - maltriage - INFO - Performing dynamic analysis...
+2025-05-23 19:03:55,734 - maltriage - INFO - Dynamic analysis completed
+2025-05-23 19:03:55,735 - maltriage - INFO - Performing heuristic analysis...
+2025-05-23 19:03:55,735 - maltriage - INFO - Heuristic analysis completed
+2025-05-23 19:03:55,736 - maltriage - INFO - Performing ML analysis...
+2025-05-23 19:03:55,801 - maltriage - INFO - ML analysis completed
+2025-05-23 19:03:55,801 - maltriage - INFO - Analysis completed for: /home/ncognto/Downloads/tuunganishe-main.zip
+2025-05-23 19:03:55,802 - maltriage - INFO - Saved report to /home/ncognto/Documents/file_triaging/maltriage/reports/saved_searches.html_report_20250523_190355.txt
